@@ -2,12 +2,22 @@
 
 main .container {
     background-image: url(../image/bg1.jpg);
+    height: 100vh;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+}
+
+
+main .text{
+    margin-top: 210px;
 }
 
 main h1{
     font-family: var(--oswald);
     font-size: 48px;
     color: var(--white-900);
+    letter-spacing: 8px;
 }
 
 main p{
@@ -18,4 +28,32 @@ main p{
 main .button a{
     padding: 12px 24px;
     color: var(--white-900);
+}
+
+
+main .left-panel{
+    background: #272727;
+    position: absolute;
+    width: 143px;
+    height: 100vh;
+    left: 0;
+    top: 0;
+}
+
+main .left-panel ul{
+    padding: 10px 0;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    bottom: 24px;
+}
+
+main .left-panel ul li{
+    padding: 8px 0;
+    margin-bottom: 8px;
+}
+
+main .left-panel ul li i{
+    color: #999;
 }
