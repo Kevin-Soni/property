@@ -60,3 +60,58 @@ main .left-panel ul li{
 main .left-panel ul li i{
     color: #999;
 }
+
+
+/* #### about #### */
+
+.about{
+    margin: 0 auto;
+    background-color: #272727;
+    padding-bottom: 96px;
+}
+
+.about h2{
+    padding-top: 96px;
+    color: var(--white-900);
+    letter-spacing: 8px;
+    font: 40px var(--oswald);
+    font-weight: 400;
+}
+
+.about h2 span{
+    color: #b19777;
+}
+
+.about p{
+    color: #999;
+    font: 18px var(--didat);
+    font-weight: 400;
+}
+
+.about .image{
+    margin-top: 96px;
+     position: relative;
+    border: 2px solid #323232;
+}
+
+
+
+.about .image img{
+    position: relative;
+    top: -25px;
+    left: 25px;
+}
+
+.about .button{
+    color: var(--white-900);
+    background-color: #323232;
+    display: inline-block;
+    padding: 14px 32px;
+    text-transform: uppercase;
+    font: 400 var(--oswald);
+    letter-spacing: 4px;
+    position: relative;
+    top: -53px;
+    left: 402px;
+}
+
