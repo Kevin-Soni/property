@@ -1,3 +1,57 @@
+/* #### header #### */
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
+header .container{
+    max-width: 100%;
+}
+
+header .logo{
+    background-color:#272727;
+    padding: 20px 50px;
+    width: 250px;
+    height: 200px;
+}
+
+header .logo img{
+    width: 75px;
+    height: 53px;
+}
+
+header .logo h2{
+    color: #b19777;
+    font: 32px var(--oswald);
+    letter-spacing: 8px;
+}
+
+header .logo p{
+    color: #777777;
+    font: var(--oswald) ;
+}
+
+
+header nav{
+    padding-right: 150px;
+}
+
+header nav ul li:first-child a{
+    color: #B19777;
+}
+
+header nav ul li a{
+    color: white;
+}
+
+header nav ul li a:hover{
+    color: #b19777;
+}
+
 /* #### main #### */
 
 main .container {
@@ -103,7 +157,7 @@ main .left-panel ul li i {
 }
 
 .about .button {
-    color: var(--white-900);
+    color: white;
     background-color: #323232;
     display: inline-block;
     padding: 14px 32px;
