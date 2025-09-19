@@ -52,8 +52,6 @@ header nav ul li a:hover{
     color: #b19777;
 }
 
-
-
 /* #### main #### */
 
 main .container {
@@ -159,7 +157,7 @@ main .left-panel ul li i {
 }
 
 .about .button {
-    color: var(--white-900);
+    color: white;
     background-color: #323232;
     display: inline-block;
     padding: 14px 32px;
