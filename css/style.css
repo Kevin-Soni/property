@@ -168,3 +168,75 @@ main .left-panel ul li i {
     top: -53px;
     left: 402px;
 }
+
+
+/* #### project #### */
+
+.projects{
+    background-color: #272727;
+}
+
+.projects h2{
+    font-family:var(--oswald);
+    margin-bottom: 40px;
+    font-size: 40px;
+    color: white;
+    letter-spacing: 8px;
+}
+.projects h2 span{
+    color: #b19777
+}
+.projects .img img{
+    width: 543px;
+    height: 383px;
+        margin-bottom: 96px;
+
+}
+
+/* #### services ####*/
+
+
+.service{
+    background-color: #272727;
+}
+
+.service h2{
+    font-family:var(--oswald);
+    margin-bottom: 40px;
+    font-size: 40px;
+    color: white;
+    letter-spacing: 8px;
+}
+.service h2 span{
+    color: #b19777
+}
+
+.service .img img{
+    width: 60px;
+    height: 42px;
+
+
+}
+
+.service h5{
+    color: white;
+    font-size: 18px;
+    font-family: var(--oswald);
+    letter-spacing: 5px;
+
+
+}
+.service p{
+    color: #999999;
+    font-size: 16px;
+    font-family: var(--didat);
+
+}
+.service .service-card .numb{
+    font-size: 50px;
+    font-weight: 600px;
+    color: #999999;
+    
+    font-family: var(--oswald);
+
+}
