@@ -182,10 +182,13 @@ main .left-panel ul li i {
     font-size: 40px;
     color: white;
     letter-spacing: 8px;
+    text-transform: uppercase;
 }
+
 .projects h2 span{
     color: #b19777
 }
+
 .projects .img img{
     width: 543px;
     height: 383px;
@@ -238,5 +241,38 @@ main .left-panel ul li i {
     color: #999999;
     
     font-family: var(--oswald);
+}
 
+/* #### news #### */
+
+.news{
+    background-color: #272727;
+}
+
+.news h2{
+    color: white;
+    letter-spacing: 10px;
+    font-family: var(--oswald);
+    font-size: 40px;
+}
+
+.news h2 span{
+    color: #b19777;
+}
+
+.news .text{
+    background-color: #323232;
+    padding: 20px 15px;
+}
+
+.news  .text h6{
+    color: #999;
+    font-family: var(--didat);
+    font-size: 14px;
+}
+
+.news  .text h3{
+    color: #b19777;
+    font-family: var(--oswald);
+    font-size: 25px;
 }
