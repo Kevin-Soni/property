@@ -292,7 +292,7 @@ main .left-panel ul li i {
     padding: 60px 45px;
     margin-left: 120px;
     position: relative;
-    top: 105px;
+    top: 85px;
     left: 0;
     z-index: 1;
 }
@@ -340,4 +340,63 @@ main .left-panel ul li i {
 .client-review .logo .img img{
     height: 105px;
     width: 85px;
+}
+
+footer{
+        background-color: #272727;
+
+}
+footer .footer-top{
+    padding: 50px;
+    margin-left: 50px;
+    
+    
+}
+
+footer .footer-top h4{
+    color: #B19777;
+    font-size: 16px;
+    font-family: var(--didat);
+    
+}
+footer .footer-top span{
+    font-size: 16px;
+    color: #999999;
+    font-family: var(--didat);
+}
+
+footer .footer-bottom{
+    margin-left: 50px;
+    padding: 50px;
+}
+
+footer .footer-bottom span{
+    color: #999999;
+    font-size: 14px;
+    font-family: var(--didat);
+
+}
+
+footer .footer-bottom .icon{
+    color: #999;
+    font-size: 19px;
+    /* padding: 0 15px; */
+    border: 1px solid #999;
+    border-radius: 50%;
+    margin-bottom: 8px;
+    padding: 8px 0;
+    margin: 0 10px;    
+
+}
+footer .footer-bottom .icon i{
+    margin: 0 5px;
+}
+footer .active-button i{
+    color: #B19777;
+    font-size: 30px;
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+    border: 1px solid ;
+    border-radius: 50%;
 }
