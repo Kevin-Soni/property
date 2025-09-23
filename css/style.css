@@ -263,6 +263,7 @@ main .left-panel ul li i {
 .news .text{
     background-color: #323232;
     padding: 20px 15px;
+    margin-bottom: 96px;
 }
 
 .news  .text h6{
@@ -275,4 +276,68 @@ main .left-panel ul li i {
     color: #b19777;
     font-family: var(--oswald);
     font-size: 25px;
+}
+
+/* #### client-review  ####*/
+
+.client-review{
+    background-image: url(../image/bg2.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    /* height: 100vh; */
+}
+
+.client-review .text-box{
+    background-color: #272727;
+    padding: 60px 45px;
+    margin-left: 120px;
+    position: relative;
+    top: 105px;
+    left: 0;
+    z-index: 1;
+}
+
+
+
+.client-review .text-box .img img{
+    height: 55px;
+    width: 55px;
+}
+
+.client-review .text-box h4{
+    color: white;
+    font-family: var(--oswald);
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+}
+
+.client-review .text-box p{
+    color: #999999;
+    margin-bottom: 20px;
+    font-family: var(--didat);  
+}
+
+.client-review .text-box h6{
+    color: #B19777;
+    font-family: var(--didat);
+    padding: 8px 0 0;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.client-review .text-box span{
+    color: #999999;
+    font-family: var(--didat);
+    font-size: 16px;
+
+}
+
+.client-review .logo{
+    background-color: #323232;
+    max-width: 100%;
+}
+
+.client-review .logo .img img{
+    height: 105px;
+    width: 85px;
 }
