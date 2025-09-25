@@ -52,6 +52,10 @@ header nav ul li a:hover{
     color: #b19777;
 }
 
+
+
+
+
 /* #### main #### */
 
 main .container {
@@ -164,7 +168,7 @@ main .left-panel ul li i {
     text-transform: uppercase;
     font: 400 var(--oswald);
     letter-spacing: 4px;
-    position: relative;
+    position: absolute;
     top: -53px;
     left: 402px;
 }
@@ -191,8 +195,8 @@ main .left-panel ul li i {
 
 .projects .img img{
     width: 543px;
-    height: 383px;
-        margin-bottom: 96px;
+    /* height: 383px; */
+    margin-bottom: 96px;
 
 }
 
@@ -210,15 +214,14 @@ main .left-panel ul li i {
     color: white;
     letter-spacing: 8px;
 }
+
 .service h2 span{
     color: #b19777
 }
 
 .service .img img{
     width: 60px;
-    height: 42px;
-
-
+    /* height: 42px; */
 }
 
 .service h5{
@@ -226,22 +229,21 @@ main .left-panel ul li i {
     font-size: 18px;
     font-family: var(--oswald);
     letter-spacing: 5px;
-
-
 }
+
 .service p{
     color: #999999;
     font-size: 16px;
     font-family: var(--didat);
-
 }
+
 .service .service-card .numb{
     font-size: 50px;
     font-weight: 600px;
-    color: #999999;
-    
+    color: #999999;   
     font-family: var(--oswald);
 }
+
 
 /* #### news #### */
 
@@ -338,7 +340,7 @@ main .left-panel ul li i {
 }
 
 .client-review .logo .img img{
-    height: 105px;
+    /* height: 105px; */
     width: 85px;
 }
 
@@ -349,8 +351,6 @@ footer{
 footer .footer-top{
     padding: 50px;
     margin-left: 50px;
-    
-    
 }
 
 footer .footer-top h4{
@@ -385,7 +385,7 @@ footer .footer-bottom .icon{
     border-radius: 50%;
     margin-bottom: 8px;
     padding: 8px 0;
-    margin: 0 10px;    
+    margin: 0 3px;    
 
 }
 footer .footer-bottom .icon i{
