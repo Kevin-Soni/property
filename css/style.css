@@ -1,6 +1,6 @@
 /* #### header #### */
 
-header{
+header {
     position: absolute;
     top: 0;
     left: 0;
@@ -8,48 +8,204 @@ header{
     z-index: 2;
 }
 
-header .container{
+header .container {
     max-width: 100%;
 }
 
-header .logo{
-    background-color:#272727;
+header .logo {
+    background-color: #272727;
     padding: 20px 50px;
     width: 250px;
     height: 200px;
 }
 
-header .logo img{
+header .logo img {
     width: 75px;
     height: 53px;
 }
 
-header .logo h2{
+header .logo h2 {
     color: #b19777;
     font: 32px var(--oswald);
     letter-spacing: 8px;
 }
 
-header .logo p{
+header .logo p {
     color: #777777;
-    font: var(--oswald) ;
+    font: var(--oswald);
 }
 
 
-header nav{
+header nav {
     padding-right: 150px;
 }
 
-header nav ul li:first-child a{
+header nav ul li:first-child a {
     color: #B19777;
 }
 
-header nav ul li a{
+header nav ul li a {
     color: white;
 }
 
-header nav ul li a:hover{
+header nav ul li a:hover {
     color: #b19777;
+}
+
+header .drop {
+    position: relative;
+}
+
+header .drop .dropdown {
+    position: absolute;
+    background-color: #272727;
+    display: none;
+    width: max-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px
+}
+
+header .drop:hover .dropdown {
+    display: block;
+}
+
+header .drop .dropdown a {
+    padding: 5px;
+    display: block;
+    border-bottom: 1px solid #999999;
+    padding-bottom: 5px;
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-family:var(--oswald);
+    font-weight: 400;
+}
+
+header .drop .dropdown a:hover {
+    color: #B19777;
+}
+
+
+
+header .drop .dropdown a:last-child {
+    border-bottom: none;
+    padding-bottom: 10px;
+}
+
+
+header .proj {
+    position: relative;
+
+}
+
+header .proj .project-dd {
+    position: absolute;
+    background-color: #272727;
+    display: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: max-content;
+    padding-top: 10px;
+}
+
+header .proj:hover .project-dd {
+    display: block;
+}
+
+header .proj .project-dd a {
+    padding: 5px;
+    display: block;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #999999;
+    font-size: 15px;
+    font-family:var(--oswald);
+    font-weight: 400;
+
+}
+
+header .proj .project-dd a:hover {
+    color: #B19777;
+}
+
+header .proj .project-dd a:last-child {
+    border-bottom: none;
+    padding-bottom: 10px;
+}
+
+header .page {
+    position: relative;
+}
+
+header .page .page-dd {
+    position: absolute;
+    background-color: #272727;
+    display: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: max-content;
+    padding-top: 10px;
+
+}
+
+
+
+header .page:hover .page-dd {
+    display: block;
+}
+
+header .page .page-dd a {
+    display: block;
+
+    padding: 5px;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #999999;
+    font-size: 15px;
+    font-family:var(--oswald);
+    font-weight: 400;
+}
+header .page .page-dd a:hover{
+    color: #B19777;
+}
+
+header .page .page-dd a:last-child {
+    border-bottom: none;
+    padding-bottom: 10px;
+}
+
+header .blog {
+    position: relative;
+}
+
+header .blog .blog-dd {
+    position: absolute;
+    background-color: #272727;
+    display: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: max-content;
+    padding-top: 10px;
+}
+
+header .blog .blog-dd a {
+    display: block;
+    padding: 5px;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #999999;
+    font-size: 15px;
+    font-family:var(--oswald);
+    font-weight: 400;
+}
+header .blog .blog-dd a:hover{
+    color: #B19777;
+}
+
+header .blog:hover .blog-dd {
+    display: block;
+}
+
+header .blog .blog-dd a:last-child {
+    border-bottom: none;
+    padding-bottom: 10px;
 }
 
 /* #### main #### */
@@ -172,12 +328,12 @@ main .left-panel ul li i {
 
 /* #### project #### */
 
-.projects{
+.projects {
     background-color: #272727;
 }
 
-.projects h2{
-    font-family:var(--oswald);
+.projects h2 {
+    font-family: var(--oswald);
     margin-bottom: 40px;
     font-size: 40px;
     color: white;
@@ -185,43 +341,44 @@ main .left-panel ul li i {
     text-transform: uppercase;
 }
 
-.projects h2 span{
+.projects h2 span {
     color: #b19777
 }
 
-.projects .img img{
+.projects .img img {
     width: 543px;
     height: 383px;
-        margin-bottom: 96px;
+    margin-bottom: 96px;
 
 }
 
 /* #### services ####*/
 
 
-.service{
+.service {
     background-color: #272727;
 }
 
-.service h2{
-    font-family:var(--oswald);
+.service h2 {
+    font-family: var(--oswald);
     margin-bottom: 40px;
     font-size: 40px;
     color: white;
     letter-spacing: 8px;
 }
-.service h2 span{
+
+.service h2 span {
     color: #b19777
 }
 
-.service .img img{
+.service .img img {
     width: 60px;
     height: 42px;
 
 
 }
 
-.service h5{
+.service h5 {
     color: white;
     font-size: 18px;
     font-family: var(--oswald);
@@ -229,50 +386,52 @@ main .left-panel ul li i {
 
 
 }
-.service p{
+
+.service p {
     color: #999999;
     font-size: 16px;
     font-family: var(--didat);
 
 }
-.service .service-card .numb{
+
+.service .service-card .numb {
     font-size: 50px;
     font-weight: 600px;
     color: #999999;
-    
+
     font-family: var(--oswald);
 }
 
 /* #### news #### */
 
-.news{
+.news {
     background-color: #272727;
 }
 
-.news h2{
+.news h2 {
     color: white;
     letter-spacing: 10px;
     font-family: var(--oswald);
     font-size: 40px;
 }
 
-.news h2 span{
+.news h2 span {
     color: #b19777;
 }
 
-.news .text{
+.news .text {
     background-color: #323232;
     padding: 20px 15px;
     margin-bottom: 96px;
 }
 
-.news  .text h6{
+.news .text h6 {
     color: #999;
     font-family: var(--didat);
     font-size: 14px;
 }
 
-.news  .text h3{
+.news .text h3 {
     color: #b19777;
     font-family: var(--oswald);
     font-size: 25px;
@@ -280,14 +439,14 @@ main .left-panel ul li i {
 
 /* #### client-review  ####*/
 
-.client-review{
+.client-review {
     background-image: url(../image/bg2.jpg);
     background-position: center;
     background-attachment: fixed;
     /* height: 100vh; */
 }
 
-.client-review .text-box{
+.client-review .text-box {
     background-color: #272727;
     padding: 60px 45px;
     margin-left: 120px;
@@ -299,25 +458,25 @@ main .left-panel ul li i {
 
 
 
-.client-review .text-box .img img{
+.client-review .text-box .img img {
     height: 55px;
     width: 55px;
 }
 
-.client-review .text-box h4{
+.client-review .text-box h4 {
     color: white;
     font-family: var(--oswald);
     margin-bottom: 20px;
     padding-bottom: 15px;
 }
 
-.client-review .text-box p{
+.client-review .text-box p {
     color: #999999;
     margin-bottom: 20px;
-    font-family: var(--didat);  
+    font-family: var(--didat);
 }
 
-.client-review .text-box h6{
+.client-review .text-box h6 {
     color: #B19777;
     font-family: var(--didat);
     padding: 8px 0 0;
@@ -325,59 +484,61 @@ main .left-panel ul li i {
     font-size: 16px;
 }
 
-.client-review .text-box span{
+.client-review .text-box span {
     color: #999999;
     font-family: var(--didat);
     font-size: 16px;
 
 }
 
-.client-review .logo{
+.client-review .logo {
     background-color: #323232;
     max-width: 100%;
 }
 
-.client-review .logo .img img{
+.client-review .logo .img img {
     height: 105px;
     width: 85px;
 }
 
-footer{
-        background-color: #272727;
+footer {
+    background-color: #272727;
 
 }
-footer .footer-top{
+
+footer .footer-top {
     padding: 50px;
     margin-left: 50px;
-    
-    
+
+
 }
 
-footer .footer-top h4{
+footer .footer-top h4 {
     color: #B19777;
     font-size: 16px;
     font-family: var(--didat);
-    
+
 }
-footer .footer-top span{
+
+footer .footer-top span {
     font-size: 16px;
     color: #999999;
     font-family: var(--didat);
 }
 
-footer .footer-bottom{
+footer .footer-bottom {
     margin-left: 50px;
     padding: 50px;
 }
 
-footer .footer-bottom span{
+footer .footer-bottom span {
     color: #999999;
     font-size: 14px;
     font-family: var(--didat);
 
 }
 
-footer .footer-bottom .icon{
+footer .footer-bottom .icon {
     color: #999;
     font-size: 19px;
     /* padding: 0 15px; */
@@ -385,18 +546,20 @@ footer .footer-bottom .icon{
     border-radius: 50%;
     margin-bottom: 8px;
     padding: 8px 0;
-    margin: 0 10px;    
+    margin: 0 10px;
 
 }
-footer .footer-bottom .icon i{
+
+footer .footer-bottom .icon i {
     margin: 0 5px;
 }
-footer .active-button i{
+
+footer .active-button i {
     color: #B19777;
     font-size: 30px;
     position: fixed;
     bottom: 20px;
     right: 50px;
-    border: 1px solid ;
+    border: 1px solid;
     border-radius: 50%;
 }
