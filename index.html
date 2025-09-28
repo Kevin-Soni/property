@@ -21,10 +21,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link
-    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
-    rel="stylesheet"
-/>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
 
     <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Oswald:wght@200..700&display=swap"
         rel="stylesheet">
@@ -163,15 +160,40 @@
 
             <h2>our <span>projects</span></h2>
 
-            <div class="row">
-                <div class="col-6">
-                    <div class="img">
-                        <img src="image/bg1.jpg" class="d-block w-100" alt="...">
-                    </div>
+            <div id="carouselTwoItems" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+
+                <!-- Indicators -->
+
+                <div class="carousel-indicators">
+
+                    <button type="button" data-bs-target="#carouselTwoItems" data-bs-slide-to="0" class="active"
+                        aria-label="Slide 1"></button>
+
+                    <button type="button" data-bs-target="#carouselTwoItems" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
                 </div>
-                <div class="col-6">
-                    <div class="img">
-                        <img src="image/bg2.jpg" class="d-block w-100" alt="...">
+
+                <!-- Carousel Items -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-6">
+                                <img src="image/bg1.jpg"  >
+                            </div>
+                            <div class="col-6">
+                                <img src="image/bg2.jpg"   >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-6">
+                                <img src="image/bg3.jpg">
+                            </div>
+                            <div class="col-6">
+                                <img src="image/bg4.jpg" >
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

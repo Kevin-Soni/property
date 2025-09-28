@@ -178,6 +178,7 @@ main .left-panel ul li i {
 
 .projects{
     background-color: #272727;
+    padding-bottom: 96px;
 }
 
 .projects h2{
@@ -194,11 +195,10 @@ main .left-panel ul li i {
 }
 
 .projects .img img{
-    width: 543px;
-    /* height: 383px; */
     margin-bottom: 96px;
-
 }
+
+
 
 /* #### services ####*/
 
@@ -262,10 +262,12 @@ main .left-panel ul li i {
     color: #b19777;
 }
 
+
 .news .text{
     background-color: #323232;
     padding: 20px 15px;
     margin-bottom: 96px;
+    position: relative;
 }
 
 .news  .text h6{
@@ -279,6 +281,8 @@ main .left-panel ul li i {
     font-family: var(--oswald);
     font-size: 25px;
 }
+
+
 
 /* #### client-review  ####*/
 
