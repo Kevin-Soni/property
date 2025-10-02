@@ -262,13 +262,50 @@ main .left-panel ul li i {
     color: #b19777;
 }
 
+/* .news .e{
+    position: relative;
+    margin-bottom: 96px;   
+}
 
 .news .text{
     background-color: #323232;
     padding: 20px 15px;
-    margin-bottom: 96px;
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+    width: 90%;
+    z-index: 1;
+    margin: 0 32px;
+} */
+
+
+.news .e {
     position: relative;
+    margin-bottom: 96px;
+    overflow: hidden;
 }
+
+.news .img img {
+    width: 100%;
+    display: block;
+}
+
+.news .text {
+    background-color: #323232;
+    padding: 20px 15px;
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    transition: bottom 0.4s ease-in-out;
+}
+
+
+.news .img:hover + .text {
+    bottom: 0; 
+}
+
 
 .news  .text h6{
     color: #999;
