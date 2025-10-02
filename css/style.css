@@ -105,6 +105,7 @@ header .page:hover .page-dd {
 
 
 
+
 /* #### main #### */
 
 main .container {
@@ -217,7 +218,7 @@ main .left-panel ul li i {
     text-transform: uppercase;
     font: 400 var(--oswald);
     letter-spacing: 4px;
-    position: absolute;
+    position: relative;
     top: -53px;
     left: 402px;
 }
@@ -227,7 +228,6 @@ main .left-panel ul li i {
 
 .projects {
     background-color: #272727;
-    padding-bottom: 96px;
 }
 
 .projects h2 {
@@ -242,10 +242,6 @@ main .left-panel ul li i {
 .projects h2 span {
     color: #b19777
 }
-
-
-
-
 
 
 /* #### services ####*/
@@ -263,8 +259,7 @@ main .left-panel ul li i {
     letter-spacing: 8px;
 }
 
-    color: #b19777
-}
+
 
 .service .img img {
     width: 60px;
@@ -278,16 +273,17 @@ main .left-panel ul li i {
     letter-spacing: 5px;
 }
 
-
-    color: #999999;
+.service p {
     font-size: 16px;
     font-family: var(--didat);
 }
 
-
+.service .service-card .numb {
+    font-size: 50px;
+    font-weight: 600px;
+    color: #999999;
     font-family: var(--oswald);
 }
-
 
 /* #### news #### */
 
@@ -306,12 +302,10 @@ main .left-panel ul li i {
     color: #b19777;
 }
 
-
 .news .text {
     background-color: #323232;
     padding: 20px 15px;
     margin-bottom: 96px;
-    position: relative;
 }
 
 .news .text h6 {
@@ -325,8 +319,6 @@ main .left-panel ul li i {
     font-family: var(--oswald);
     font-size: 25px;
 }
-
-
 
 /* #### client-review  ####*/
 
@@ -387,8 +379,7 @@ main .left-panel ul li i {
     max-width: 100%;
 }
 
-
-.client-review .logo .img img {
+.client-review .logo .img img{
     height: 105px;
     width: 85px;
 }
@@ -436,8 +427,7 @@ footer .footer-bottom .icon {
     border-radius: 50%;
     margin-bottom: 8px;
     padding: 8px 0;
-
-
+    margin: 0 10px;
 }
 
 footer .footer-bottom .icon i {
