@@ -102,8 +102,60 @@ header .page:hover .page-dd {
     display: block;
 }
 
+header .page .page-dd a {
+    display: block;
 
+    padding: 5px;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #999999;
+    font-size: 15px;
+    font-family:var(--oswald);
+    font-weight: 400;
+}
+header .page .page-dd a:hover{
+    color: #B19777;
+}
 
+header .page .page-dd a:last-child {
+    border-bottom: none;
+    padding-bottom: 10px;
+}
+
+header .blog {
+    position: relative;
+}
+
+header .blog .blog-dd {
+    position: absolute;
+    background-color: #272727;
+    display: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: max-content;
+    padding-top: 10px;
+}
+
+header .blog .blog-dd a {
+    display: block;
+    padding: 5px;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #999999;
+    font-size: 15px;
+    font-family:var(--oswald);
+    font-weight: 400;
+}
+header .blog .blog-dd a:hover{
+    color: #B19777;
+}
+
+header .blog:hover .blog-dd {
+    display: block;
+}
+
+header .blog .blog-dd a:last-child {
+    border-bottom: none;
+    padding-bottom: 10px;
+}
 
 
 /* #### main #### */
@@ -243,6 +295,12 @@ main .left-panel ul li i {
     color: #b19777
 }
 
+.projects .img img {
+    width: 543px;
+    height: 383px;
+    margin-bottom: 96px;
+
+}
 
 /* #### services ####*/
 
@@ -259,11 +317,15 @@ main .left-panel ul li i {
     letter-spacing: 8px;
 }
 
-
+.service h2 span {
+    color: #b19777
+}
 
 .service .img img {
     width: 60px;
-    /* height: 42px; */
+    height: 42px;
+
+
 }
 
 .service h5 {
@@ -271,17 +333,22 @@ main .left-panel ul li i {
     font-size: 18px;
     font-family: var(--oswald);
     letter-spacing: 5px;
+
+
 }
 
 .service p {
+    color: #999999;
     font-size: 16px;
     font-family: var(--didat);
+
 }
 
 .service .service-card .numb {
     font-size: 50px;
     font-weight: 600px;
     color: #999999;
+
     font-family: var(--oswald);
 }
 
@@ -379,7 +446,7 @@ main .left-panel ul li i {
     max-width: 100%;
 }
 
-.client-review .logo .img img{
+.client-review .logo .img img {
     height: 105px;
     width: 85px;
 }
@@ -392,6 +459,8 @@ footer {
 footer .footer-top {
     padding: 50px;
     margin-left: 50px;
+
+
 }
 
 footer .footer-top h4 {
@@ -428,6 +497,7 @@ footer .footer-bottom .icon {
     margin-bottom: 8px;
     padding: 8px 0;
     margin: 0 10px;
+
 }
 
 footer .footer-bottom .icon i {
