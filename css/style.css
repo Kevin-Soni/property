@@ -1,5 +1,40 @@
 /* #### header #### */
 
+header .container{
+    width: 100%;
+}
+
+header .logo{
+    background-color: #272727;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+header .logo h2{
+    color: #B19777;
+    font: 45px var(--oswald);
+}
+
+header .logo p{
+    color: #777777;
+    font: 12px var(--oswald);
+}
+
+header nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+
+header .logo img{
+    width: 100%;
+    height: 55px;
+    width: 75px;
+}
 
 header .drop {
     position: relative;
